@@ -1,0 +1,15 @@
+Sample test data.
+
+let a = NonAdverb ("голямото", "О", "ср")
+let b = NonAdverb ("куче", "П", "ср")
+let c = NonAdverb ("лае", "С", "ед") 
+let d = Adverb ("птиците", "Д") 
+let f = NonAdverb ("жаби", "П", "мн")
+let g = NonAdverb ("гледат", "С", "мн")
+let e = Adverb ("към небето", "Д")
+let h = NonAdverb ("зелените","О","мн")
+let lst = [a,b,c,d,e,f,g,h]
+
+makeSentence lst
+
+Use putStr to print cyrillic symbols in GHCi.
